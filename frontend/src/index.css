@@ -20,6 +20,22 @@
    scrollbar-width: none;  /* Hide scrollbar in Firefox */
  }
 
+ @media (min-width: 640px) and (max-width: 770px) {
+	.mediaquairy {
+	  flex-direction: row !important; /* Example style with priority */
+	  
+	
+	}
+	.smq{
+		height: 450px !important;
+	}
+    .mmq{
+		height: 450px !important ;
+		width: 80vw !important;
+		/* background-color: aqua; */
+	}
+  }
+
 /* SHAKE ANIMATION ON HORIZONTAL DIRECTION */
 /* .shake {
 	animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) 0.2s both;
