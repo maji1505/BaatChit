@@ -9,6 +9,7 @@
         httpOnly:true, //prevent xss attacks cross-site scripting attacks
         sameSite:"strict",  //csrf attacks cross-site request forgery attacks
         secure:process.env.MODE_ENV !== "development"
+      // secure:true,
      })
  }
  export default generateTokenAndSetCookie;
